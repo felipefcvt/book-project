@@ -1,6 +1,4 @@
-import React from 'react';
 import BookItem from './BookItem';
-
 interface FavoriteBooksProps {
   favorites: Array<{
     id: number;
@@ -11,7 +9,7 @@ interface FavoriteBooksProps {
   onRemoveFavorite: (id: number) => void;
 }
 
-const FavoriteBooks: React.FC<FavoriteBooksProps> = ({ favorites, onRemoveFavorite }) => {
+export default function FavoriteBooks ({ favorites, onRemoveFavorite }: FavoriteBooksProps) {
   return (
     <div>
       {favorites.map((book) => (
@@ -27,4 +25,4 @@ const FavoriteBooks: React.FC<FavoriteBooksProps> = ({ favorites, onRemoveFavori
   );
 };
 
-export default FavoriteBooks;
+
