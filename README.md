@@ -22,17 +22,19 @@ Framework: Next.js
 
 Requisições HTTP: Axios
 
+## Como usar
+
+Clonar o Repositório: https://github.com/felipefcvt/book-project.git
+
 ## Instalação Backend
 
-1. Clonar o Repositório: https://github.com/felipefcvt/book-project.git
+1. Navegue até a pasta do back-end: cd backend
 
-2. Navegue até a pasta do back-end: cd backend
+2. Instale as dependências: npm install
 
-3. Instale as dependências: npm install
+3. crie o arquivo .env seguindo o padrão de .env.example para configurar o Prisma.
 
-4. crie o arquivo .env seguindo o padrão de .env.example para configurar o Prisma.
-
-5. Inicie o servidor de desenvolvimento: npm run dev
+4. Inicie o servidor de desenvolvimento: npm run dev
 
 ## Instalação Frontend
 
