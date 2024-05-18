@@ -32,9 +32,21 @@ Clonar o Repositório: https://github.com/felipefcvt/book-project.git
 
 2. Instale as dependências: npm install
 
-3. crie o arquivo .env seguindo o padrão de .env.example para configurar o Prisma.
+3. Rode o comando npx prisma init.
 
-4. Inicie o servidor de desenvolvimento: npm run dev
+3. crie o schema do prisma neste padrão:
+
+model FavoriteBook {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  imageUrl    String
+  createdAt   DateTime @default(now())
+}
+
+4. Configure o banco de dados no arquivo .env gerado pelo Prisma. .
+
+5. Inicie o servidor de desenvolvimento: npm run dev
 
 ## Instalação Frontend
 
