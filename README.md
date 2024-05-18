@@ -24,7 +24,7 @@ Requisições HTTP: Axios
 
 ## Instalação Backend
 
-1. Clonar o Repositório
+1. Clonar o Repositório: https://github.com/felipefcvt/book-project.git
 
 2. Navegue até a pasta do back-end: cd backend
 
@@ -36,7 +36,7 @@ Requisições HTTP: Axios
 
 ## Instalação Frontend
 
-1. Navegue até a pasta do frontend: cd frontend
+1. Navegue até a pasta do front-end: cd frontend
 
 2. Instale as dependências: npm install
 
