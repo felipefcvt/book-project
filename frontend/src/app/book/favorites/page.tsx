@@ -5,7 +5,7 @@ import FavoriteBooks from '@/components/FavoriteBook';
 import React, { useState, useEffect } from 'react';
 import styles from '../../../styles/global.module.css';
 
-const FavoritesPage: React.FC = () => {
+export default function FavoritesPage () {
   const [favorites, setFavorites] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [bookToRemove, setBookToRemove] = useState<number | null>(null);
@@ -52,5 +52,3 @@ const FavoritesPage: React.FC = () => {
     </section>
   );
 };
-
-export default FavoritesPage;
