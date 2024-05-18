@@ -30,7 +30,7 @@ Requisições HTTP: Axios
 
 3. Instale as dependências: npm install
 
-4. Configure a porta do banco de dados no arquivo .env gerado pelo Prisma.
+4. crie o arquivo .env seguindo o padrão de .env.example para configurar o Prisma.
 
 5. Inicie o servidor de desenvolvimento: npm run dev
 
